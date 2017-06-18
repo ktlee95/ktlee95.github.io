@@ -3,7 +3,16 @@
 		$user_name = $_POST['username'];
 		$user_password = $_POST['password'];
 		
-		require_once('dbConnect.php');
+		<?php
+	//Defining the varible to connect the database
+	define('HOST','sql12.freemysqlhosting.net');
+	define('USER','sql12180864');
+	define('PASS','MUuJ4pzGYS');
+	define('DB','sql12180864');
+	
+	//connect the database, if failed, output unable to connect
+	$con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect Database');
+?>
 		require_once('encrypt_decrypt.php');
 		
 		define("ENCRYPTION_KEY", "ThErE_ARe_No_ENCrypTIon_KeY");
