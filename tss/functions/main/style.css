@@ -1,0 +1,347 @@
+	body {
+		padding: 0!important;
+		margin: 0!important;
+		direction: "ltr";
+		font-size: 14px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		line-height: 1.42857;
+		background-color: rgba(57, 72, 93, 0.05);
+	}
+	body, h1, h2, h3, h4, h5, h6 {
+		font-family: "Open Sans", sans-serif;
+	}
+	h1 {
+		display: block;
+		margin: 0px;
+		padding: 0px;
+	}
+	.header-top {
+		height: auto;
+		width: auto;
+		margin: 0;
+		padding: 0;
+		background-color:#39485d;
+	}
+	.header-top ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.header-top li {
+		float: left;
+	}
+	.header-top li a {
+		display: block;
+		color: #fff;
+		font-size: 17px;
+		text-align: center;
+		padding: 18px 20px;
+		text-decoration: none;
+	}
+	.header-top li a:hover.active {
+		background-color: #47a9a8; 
+	}
+	.header-top li a:hover:not(.active) {
+		background-color: #47a9a8;
+	}
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.box-panel {
+		background-color: #fff;
+		padding: 10px;
+		border-radius: 10px;
+		margin-bottom: 50px;
+	}
+	
+	.box-panel li {
+		margin: 10px 0px;
+	}
+	
+	.box-panel-title {
+		padding-left: 20px; 
+		font-size: 20px; 
+		color: #47a9a8; 
+		margin-top: 5px;
+	}
+	
+	.btn-add {
+		float: right;
+		margin-right: 10px;
+		height: 28px;
+		width: 50px;
+		background-color: #fff;
+		border: 1px solid #47a9a8;
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: normal;
+		/* line-height: 1.428571429; */
+		text-align: center;
+		/* white-space: nowrap;
+		vertical-align: middle;
+		cursor: pointer; */
+		border-radius: 12px;
+	}
+	
+	.btn-add:hover { 
+		background-color: #47a9a8;
+		color: #fff;
+		border: 1px solid #47a9a8;
+		display: inline-block;
+	}
+	.btn-add:hover { 
+		background-color: #47a9a8;
+		color: #fff;
+		border: 1px solid #47a9a8;
+		display: inline-block;
+	}
+	
+	.btn-day {
+		text-align: center;
+		color: #47a9a8;
+		background-color: #ffffff;
+		border: 1px solid #47a9a8;
+		border-radius: 12px;
+		display: inline-block;
+		height: 30px;
+		width: 10%;
+		margin-right: 5px;
+	}
+	
+	.btn-day:hover {
+		text-align: center;
+		color: #ffffff;
+		background-color: #47a9a8;
+		border: 1px solid #47a9a8;
+	}
+	
+	.btn-day-control {
+		text-align: center;
+		margin-bottom: 15px;
+		margin-top: 5px;
+	}
+	
+	.btn-submit {
+		float: right;
+		text-align: center;
+		color: #47a9a8;
+		width: 15%;
+		height: 40px;
+		font-size: 17px;
+		background-color: #ffffff;
+		border: 1px solid #47a9a8;
+		border-radius: 12px;
+		display: inline-block;
+	}
+	
+	.btn-update {
+		float: right;
+		text-align: center;
+		color: #47a9a8;
+		width: 12%;
+		height: 34px;
+		font-size: 17px;
+		padding-top: 4px;
+		margin-right: 3%;
+		background-color: #ffffff;
+		border: 1px solid #47a9a8;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	.btn-active {
+		background-color: #47a9a8;
+		color: #fff;
+	}
+	
+	.btn-update:hover {
+		text-align: center;
+		color: #ffffff;
+		background-color: #47a9a8;
+		border: 1px solid #47a9a8;
+		text-decoration: none;
+	}
+	
+	.btn-submit:hover {
+		text-align: center;
+		width: 15%;
+		height: 40px;
+		color: #ffffff;
+		background-color: #47a9a8;
+		border: 1px solid #47a9a8;
+		text-decoration: none;
+	}
+	
+	.btn-submit:hover a{
+		text-align: center;
+		width: 15%;
+		height: 40px;
+		color: #ffffff;
+		background-color: #47a9a8;
+		border: 1px solid #47a9a8;
+		text-decoration: none;
+	}
+	
+	.form-group {
+		margin: 0px 20px;
+	}
+	
+	.form-label {
+		margin-left: 2px;
+		font-size: 20px;
+		color: #39485d;
+	}
+	
+	.form-control {
+		margin-bottom: 15px;
+	}
+	
+	.dropdown-toggle {
+		
+	}
+	
+	hr {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 0;
+		border-top: 1px solid #eeeeee;
+		width: 90%;
+	}
+	
+	label	{
+		color: #555555;
+		font-size:18px;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	.table-task {}
+	
+	thead {
+		height: 30px;
+		background-color: #b8e0df;
+	}
+	.table thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+	}
+	.table-task tbody {
+		border-top: #000;
+	}
+	.table-task tr, td {
+		padding: 15px;
+		text-align: left;
+		border: 1px solid #e0e0e0;
+		border-top: transparent;
+		border-left: transparent;
+		border-right: transparent;
+	}
+	.table-task tbody>tr:hover {
+		background-color: #f5f5f5;
+	}
+	
+	.table-timetable {}
+	
+	.table-timetable th {
+		background-color: #b8e0df;
+	}
+	.table-timetable tr, td {
+		padding: 15px;
+		text-align: left;
+		border: 1px solid #e0e0e0;
+	}
+	td .form-control  {
+		height: 20px;
+	}
+	.form-option {
+		height: 34px;
+		padding: 6px 12px;
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: #555555;
+		vertical-align: middle;
+		background-color: #ffffff;
+		border: 1px solid #cccccc;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	}
+	
+	.button {
+		display: inline-block;
+		position: relative;
+		border: rgba(255, 255, 255, 0);
+		overflow: hidden;
+		text-decoration: none;
+		outline: none;
+		color: #39485d;
+		background: transparent;
+	}
+	.button span {
+		transition: 0.5s;
+		transition-delay: 0.2s;
+	}
+	.button:before,
+	.button:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		transition: .4s,opacity .5s;
+	}
+	.button:before {
+		content: attr(data-hover);
+		transform: translate(-150%,0);
+	}
+	/* :after */
+	.button:after {
+		content: attr(data-active);
+		transform: translate(150%,0);
+	}
+	/* Span on :hover and :active */
+	.button:hover span,
+	.button:active span {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+	/*  
+		We show :before pseudo-element on :hover 
+		and :after pseudo-element on :active 
+	*/
+	.button:hover:before,
+	.button:active:after {
+		opacity: 1;
+		transform: translate(0,0);
+		transition-delay: .3s;
+	}
+	/* 
+	  We hide :before pseudo-element on :active
+	*/
+	.button:active:before {
+		transform: translate(-150%,0);
+		transition-delay: 0s;
+	}
+	
+	.about li {
+		list-style-type: disc;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	
+	
+	
+	

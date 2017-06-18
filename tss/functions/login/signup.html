@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ONTIME ! | Sign Up</title>
+		 <link rel="stylesheet" href="style.css">
+
+
+    <body class=" login">
+		<h1><font color="#ff5334">ON</font>TIME !</h1>
+        <div class="content" style="height: 415px;">
+
+            <!-- BEGIN REGISTRATION FORM -->
+            <form class="signup-form" action="signup.php" method="post">
+                <h2 class="form-title font-green">Sign Up</h2>
+                
+                <div class="form-group">
+                    <label class="control-label">Username</label>
+                    <input class="form-control placeholder-no-fix" title="Please dont use the WHITE SPACE!" type="text" pattern="[^\s]+" placeholder="Username" name="username" required/> </div>
+                <div class="form-group">
+                    <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                    <label class="control-label">Email</label>
+                    <input class="form-control placeholder-no-fix" title="Please dont use the WHITE SPACE!" type="email" pattern="[^\s]+" placeholder="Email" name="email" required/> </div>
+					
+				 <div class="form-group">
+                    <label class="control-label">Password</label>
+                    <input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Password" name="password" required/> </div>
+              
+                <div style="text-align: center;">
+                    <a href="login.html" type="button" id="signup-back-btn" class="btn btn-primary">Back</a>
+                    <input style="cursor: pointer;" type="submit" id="signup-submit-btn" class="btn btn-primary" value = "Submit">
+                </div>
+            </form>
+            <!-- END REGISTRATION FORM --> 
+		</div>
+        <footer class="footer"> 2017 © Ontime! Copyright </footer>
+    
+    </body>
+
+</html>
