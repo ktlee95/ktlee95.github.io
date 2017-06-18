@@ -1,6 +1,6 @@
 <?php
 	//Defining the varible to connect the database
-	define('HOST','http://sql12.freemysqlhosting.net');
+	define('HOST','sql12.freemysqlhosting.net:3306');
 	define('USER','sql12180864');
 	define('PASS','MUuJ4pzGYS');
 	define('DB','sql12180864');
