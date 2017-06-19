@@ -1,8 +1,11 @@
 <?php
-	if($_SERVER['REQUEST_METHOD']=='POST'){
-		$user_name = $_POST['username'];
-		$user_password = $_POST['password'];
+	if($_SERVER['REQUEST_METHOD']=='GET'){
+		$user_name = $_GET['username'];
+		$user_password = $_GET['password'];
 		
+		/***********************************************************
+		**********comment out because no database connected*********
+		************************************************************
 		require_once('dbConnect.php');
 		require_once('encrypt_decrypt.php');
 		
@@ -33,6 +36,37 @@
 				"user_state"=>$row['user_state'],
 				"user_country"=>$row['user_country']
 		));
+		}
+		************************************************************
+		**********comment out because no database connected*********
+		************************************************************/
+		$result = array();
+		if($user_name == 'user' && $user_password == 'user'){
+			array_push($result,array(
+				"user_group"=>"student",
+				"user_status"=>"Active",
+				
+				"user_email"=>"user@hotmail.com",
+				"user_fullname"=>"user_fullname",
+				"user_gender"=>"Male",
+				"user_phone"=>"011-23253920",
+				"user_college"=>"MMU",
+				"user_state"=>"Selangor",
+				"user_country"=>"Malaysia"
+			));
+		}else if($user_name == 'admin' && $user_password == 'admin'){
+			array_push($result,array(
+				"user_group"=>"admin",
+				"user_status"=>"Active",
+				
+				"user_email"=>"admin@hotmail.com",
+				"user_fullname"=>"admin_fullname",
+				"user_gender"=>"Male",
+				"user_phone"=>"011-23253920",
+				"user_college"=>"MMU",
+				"user_state"=>"Selangor",
+				"user_country"=>"Malaysia"
+			));
 		}
 		
 		if (count($result)!=1) { 
@@ -100,6 +134,5 @@
 					echo "</script>";
 			}
 		}
-		mysqli_close($con);
 	}
 ?>
