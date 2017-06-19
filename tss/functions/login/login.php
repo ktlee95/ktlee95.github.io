@@ -1,7 +1,7 @@
 <?php
-	if($_SERVER['REQUEST_METHOD']=='GET'){
-		$user_name = $_GET['username'];
-		$user_password = $_GET['password'];
+	if($_SERVER['REQUEST_METHOD']=='POST'){
+		$user_name = $_POST['username'];
+		$user_password = $_POST['password'];
 		
 		/***********************************************************
 		**********comment out because no database connected*********
